@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,input,textarea{
+    font-family: 'Open Sans', sans-serif;
+}
+.top1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    border-top: 2px silver;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+  }
+  li a,img {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+  }
+  
+  li a:hover {
+    opacity: 0.3;
+    transition: 1s;
+
+  }
+  .icon{
+    display: none;
+}
+#wood1{
+    width: 450px;
+    padding-right: 100px;
+}
+.mid{
+    border-top: 1px solid rgb(172, 169, 169);
+    margin-top: 170px;
+    display: flex;
+}
+.left1{
+    width: 74%;
+    border-right: 1px solid rgb(177, 173, 173);
+    margin-top: 0;
+}
+.art{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 75%;
+}
+.head1{
+    text-decoration:  none;
+    color: #333;
+    font-size: 26px;
+    font-family: 'Della Respira', serif;
+    font-weight: lighter;
+}
+.brady{
+    font-size: 12px;
+    color: rgba(61, 61, 61);
+    font-family: 'Open Sans', sans-serif;
+}
+.bradylink{
+    text-decoration: none;
+    color: rgba(61, 61, 61);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.para{
+    font-size: 15px;
+    color:  rgb(61, 61, 61);
+    font-family: 'Open Sans', sans-serif;
+}
+#firstline{
+    text-indent: 26px;
+}
+.mwt{
+    width: 75%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.art2{
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 75%;
+}
+.right1{
+    width: 15%;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.linkx{
+    text-decoration: none;
+    color: #0c71c3;
+    font-size: 100%;
+}
+#linky{
+    font-size: 13px;
+}
+.head2{
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Della Respira', serif;
+    font-weight: lighter;
+    color: #333;
+}
+.foot{
+    margin-top: 70px;
+    background-color: rgb(31, 31, 31);
+}
+.foot1{
+    display: flex;
+    height: 240px;
+    font-size: 15px;
+}
+.footx{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.footy{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.footz{
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+.head3{
+    color: green;
+    font-family: 'Della Respira', serif;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.small{
+    font-size: 15px;
+}
+a.quick{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+a.linkingx{
+    text-decoration: none;
+    color: #2ea3f2;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    padding-left: -10px;
+
+}
+.fbx{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    border: none;
+    border-radius: 50%;
+}
+#instax{
+    margin-left: -30px;
+    border: none;
+    border-radius: 50%;
+}
+.foot2{
+    background-color: rgb(14, 14, 14);
+    height: 50px;
+}
+#copyright{
+    font-weight: lighter;
+    color: white;
+    margin-left: 90px;
+    position: relative;
+    top: 15px;
+}
+
+@media only screen and (max-width:600px) {
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    li a{
+        padding:10px;
+    }
+    #wood1{
+        width: 400px;
+        height: 150px;
+        padding-right: 100px;
+        margin-top: 50px;
+    }
+    .top1{
+        height: 150px;
+    }
+    .mid{
+        border-top: 1px solid #333;
+        margin-top: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left1{
+        width: 100%;
+        border-right: 1px solid #333;
+        margin-top: 0;
+    }
+    .right1{
+        width: 80%;
+        margin-left: 18%;
+        font-size: 15px;
+        color:rgb(87, 87, 251);
+    }
+    .foot{
+        margin-top: 70px;
+        background-color: rgb(31, 31, 31);
+        width: 100%;
+    }
+    .foot1{
+        display: flex;
+        height: 300px;
+        font-size: 15px;
+    }
+    .footx{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .footy{
+        width: 30%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footz{
+        width: 25%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .head3{
+        color: green;
+        font-family: 'Della Respira', serif;
+        margin-bottom: 5px;
+        font-weight: lighter;
+    }
+    .small{
+        font-size: 15px;
+    }
+    a.quick{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    a.linkingx{
+        text-decoration: none;
+        color: #2ea3f2;
+        font-weight: bolder;
+        position: relative;
+        top: 20px;
+        padding-left: -10px;
+    
+    }
+    .foot2{
+        background-color: rgb(14, 14, 14);
+        height: 70px;
+        margin-top: 20px;
+    }
+    #copyright{
+        font-weight: lighter;
+        color: white;
+        margin-left: 10px;
+        position: relative;
+        top: 15px;
+    }
+    
+
+    @media only screen and (max-width: 600px) {
+        .headm a {
+            display: none;
+        }
+        .headm  {
+            color: rgb(87, 87, 251);
+          align-items:center;
+          display: block;
+          margin-top: 350px;
+          margin-left: -200px;
+          font-size: 50px;
+        }
+        a.icon{
+            color: rgb(87, 87, 251);
+            align-items:center;
+            display: block;
+            margin-top: -190px;
+            margin-left: 200px;
+            font-size: 50px;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .headm.responsive {position: relative;}
+        .headm.responsive .icon {
+          position: absolute;
+          right: 280px;
+          top:-5px;
+         
+        }
+        .headm.responsive a {
+          float: none;
+          display: block;
+          text-align: center;
+          transition:1s;
+        }
+      }
+

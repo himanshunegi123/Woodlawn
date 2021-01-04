@@ -1,0 +1,485 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headm {
+    width:100%;
+    background:rgba(0, 0, 0,0.5);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    font-family:'Roboto', sans-serif;
+    display: block;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.icon {
+    display: none;
+}
+.headm a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    padding:30px;
+}
+.headm a:hover{
+    color:#484849;
+    transition: 0.9s;
+}
+#img1 {
+    width:500px;
+    height:500px;
+    margin-left:30px;
+}
+.main1 {
+    background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-serveces-hero-banner.jpg");
+    background-color: rgb(33, 31, 32);
+    background-blend-mode: overlay;
+    min-height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:-100px;
+  
+}
+.extra2 {
+    width:100%;
+    height:90px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNTEpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4");
+    position: relative;
+    padding:50px 0px;
+    background-position: center center;
+    background-size: cover;
+
+}
+.text1 {
+    font-family: 'Della Respira', serif;
+    color:white;
+    font-size:23px;    
+    float:right;
+    margin-right:150px;
+    margin-top:120px;
+   
+}
+.main2 p{
+    font-family: 'Della Respira', serif;
+    width:100%;
+    text-align:center;
+    font-size:50px;
+    color:#333333;
+
+}
+.main2 {
+    width:100%;
+    height:500px;
+    align-items: center;
+    text-align: center;
+    
+}
+.main21 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+
+    
+}
+.main22 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+    
+}
+.main23 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+    
+}
+
+
+#but1 {
+    background-color:#4E943C;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+    margin-top:5%;
+
+}
+.extmain2 {
+    width:100%;
+    height:300px;
+   
+    padding-left:5%;
+}
+
+#but1:hover{
+    padding-right:30px;
+    padding-left:30px;
+    cursor:pointer;
+    transition: 0.8s;
+
+}
+.extra1 {
+    width: 100%;
+    height:90px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNTEpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4");
+
+}
+.main3 {
+    text-align: center;
+}
+.main3 p {
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+
+}
+#main3p {
+    font-family: 'Della Respira', serif;
+    font-size:50px;
+    color:#333333;
+
+}
+.main4 {
+    width:100%;
+    text-align: center;
+    color:#0C71C3;
+    font-family: 'Della Respira', serif;
+    height:200px;
+    background-color: #F3F3F3;
+    font-size: 45px;
+    padding-top:10px;
+}
+.main5 {
+    width:100%;
+    background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-garden-care.jpg");
+    background-color: rgb(80, 77, 79);
+    background-blend-mode: overlay;
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    margin:0px;
+    
+}
+.form {
+    text-align: center;
+    width:40%;
+    padding-top:100px;
+}
+.form p {
+    color:white;
+    font-size:35px;
+    font-family: 'Della Respira', serif;
+}
+#input {
+    width:150px;
+    height:40px;
+    margin:10px;
+    border:none;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    padding-left:5px;
+    
+}
+#texta {
+    width:330px;
+    margin:18px;
+    height:150px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    padding:20px;
+    
+}
+#subutton {
+    width:100px;
+    height:40px;
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    margin-left:42%;
+}
+#subutton:hover{
+    padding-right:50px;
+    padding-left:15px;
+    cursor:pointer;
+}
+.main52{
+    float:right;
+    width:40%;
+    font-family: 'Della Respira', serif;
+    color:white;
+    margin-top:14%;
+    margin-left:10%;
+    
+
+}
+.main52 p{
+    font-size:15px;
+
+}
+.main52 h4{
+    font-size:18px;
+}
+.main6 {
+    width:100%;
+    height:250px;
+    background-color:#222222;
+    padding-top:40px;
+}
+.main61{
+    float:left;
+    width:30%;
+    margin-left:20px;
+
+}
+.main62{
+    width:20%;
+    float:left;
+    
+    
+}
+.main63{
+    float:right;
+    width:27%;
+    margin-right:200px;
+
+}
+.main6 p {
+    color:white;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    padding-left:50px;
+    
+}
+.main6 a{
+    text-decoration: none;
+    color: white;
+    }
+#main611 {
+    font-size:24px;
+    color:#4E943C;
+    font-family: 'Della Respira', serif;
+}
+.bottom {
+    height:50px;
+    width:100%;
+    padding:14px;
+    background-color: #171717;
+
+}
+.bottom p {
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    padding-left:20px;
+
+}
+
+@media only screen and (max-width:600px) {
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .headm a{
+        padding:10px;
+    }
+    .main1 {
+        height: 1100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom:-100px;
+
+    }
+    #img1 {
+        width:300px;
+        height:300px;
+        margin-left:30px;
+    }
+    .text1 {
+        margin-top:10px;
+        margin-left:10px;
+        height:500px;
+        width:70%;
+        padding-left:50px;
+
+    }
+    .text1 p{
+        font-family: 'Della Respira', serif;
+        color:white;
+        font-size:25px;  
+        
+        
+    }
+    .text1 h1 {
+        font-size:40px;
+
+    }
+    .main2 p{
+        font-family: 'Della Respira', serif;
+        width:100%;
+        text-align:center;
+        font-size:30px;
+        color:#333333;
+    
+    }
+    .main2 {
+        width:100%;
+        height:1000px;
+        align-items: center;
+        text-align: center;
+        display: block;
+        align-items: center;
+        
+    }
+    .main21 {
+        width:90%;
+        float:left;
+        padding-left:3%;
+    
+        
+    }
+    .main22 {
+        width:90%;
+        float:left;
+        padding-left:3%;
+        
+    }
+    .main23 {
+        width:90%;
+        float:left;
+        padding-left:3%;
+        
+    }
+    .main3 {
+        text-align: center;
+        padding: 20px;
+    }
+    #main3p {
+        font-size:25px;
+    }
+    .main3 p {
+        font-size:15px;
+    
+    }
+    .main4 {
+        width:100%;
+        text-align: center;
+        color:#0C71C3;
+        font-family: 'Della Respira', serif;
+        height:180px;
+        background-color: #F3F3F3;
+        font-size: 25px;
+        padding:10px;
+    }
+    .main5 {
+        display: block;
+        height:1200px;
+    }
+    .form {
+        text-align: center;
+        
+        width:80%;
+        
+    }
+    #input {
+        width:99%;
+        height:50px;
+        margin-left:80px;
+    }
+    #texta {
+        width:99%;
+        height:180px;
+        margin-left:80px;
+    }
+    .main52 { 
+        text-align: left;
+        float:left;
+        padding-left: 30px;
+        width:100%;
+    }
+    .main52 p{
+        font-size:30px;
+        font-weight: bold;
+    
+    }
+    .main52 h4{
+        font-size:18px;
+    }
+    #subutton {
+        width:100px;
+        height:40px;
+        margin-left:450px;
+
+    }
+    #subutton:hover{
+        padding-right:50px;
+        padding-left:15px;
+        cursor:pointer;
+    }
+    .main6 {
+        display:block;
+        width:100%;
+        height:600px;
+
+
+    }
+    .main61{
+        width:100%;
+        float:left;
+       
+    
+    }
+    .main62{
+        width:100%;
+        float:left;
+        margin-left:20px;
+        
+        
+    }
+    .main63{
+        width:100%;
+        float:left;
+        margin-left:20px;
+        
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .headm a {
+        display: none;
+    }
+    .headm a.icon {
+        color: rgb(87, 87, 251);
+      align-items: center;
+      display: block;
+      transition:1s;
+     
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .headm.responsive {position: relative;}
+    .headm.responsive .icon {
+      position: absolute;
+      right: 280px;
+      top:-5px;
+     
+     
+    }
+    .headm.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+      
+    }
+  }

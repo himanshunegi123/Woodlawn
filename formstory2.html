@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.fonts.googleapis.com/css?family=Open+sans" rel="stylesheet">
+    <title>Form a Story</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        #top {
+
+            background-color: white;
+            border-radius: 40px;
+            padding-left: 600px;
+            margin: 40px;
+            border-bottom: solid black 3px;
+            width:100%;
+
+        }
+
+        #main {
+            border-radius: 30px;
+            border: 1px solid #3333ff;
+            background-color: #3333ff;
+
+
+        }
+
+        #header2 {
+            font-size: 20px;
+            text-align: center;
+            padding-right:75px;
+            background-color:white;
+            border-radius: 40px;
+            font-family: ubuntu;
+            margin-bottom: 40px;
+
+        }
+
+        .bg {
+            background-color: #3333ff;
+            border-bottom: 2px white solid;
+            color: white;
+            border: none;
+            font-family: ubuntu;
+        }
+
+        ::placeholder {
+            color: white;
+            opacity: 1;
+            font-family: ubuntu;
+
+        }
+
+        .lab {
+            font-size: 30px;
+            font-family: ubuntu;
+
+        }
+
+        .inp {
+            width: 600px;
+            text-align: center;
+            background-color: #3333ff;
+            border: none;
+            border-bottom: white 3px solid;
+            font-family: ubuntu;
+            font-size: 18px;
+            border-radius: 6px;
+
+
+        }
+
+        #botm {
+            border: none;
+            color: white;
+            background-color: #3333ff;
+            font-size: 15px;
+            height: 50px;
+            width: 40%;
+            border-radius: 6px;
+            margin-top: 50px;
+            padding: 2px;
+        }
+
+        #bottom2 {
+            text-align: center;
+            color: #3333ff;
+
+        }
+
+        @media screen and (max-width: 600px) {
+            #header2, #top, .inp, .lab {
+                width: 100%;
+                margin-top: 0;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body style="background-color:white;">
+    <div id="top">
+        <img src="logo.png" alt="Form a Story" height="100px" width="140px">
+    </div>
+    <div id="header2">
+        <h1><b>Make-Story</b></h1>
+        <p>Fill your dream characters</p>
+    </div>
+    
+
+    <section id="main" style="text-align:center;">
+        <form action="#" method="get" style="text-align:center; padding-top:40px;">
+            <label for="animal-1" class="lab">Animal:</label><br><br>
+            <input class="inp" id="animal-1" name="animal-1" type="text" class="bg" placeholder="Your Favourite animal"
+                required><br>
+
+            <label for="animal-2" class="lab">Another animal:</label><br><br>
+            <input class="inp" id="animal-2" name="animal-2" type="text" placeholder="Your another Favourite animal"
+                class="bg" required><br>
+
+            <label for="animal-3" class="lab">One more animal:</label><br><br>
+            <input class="inp" id="animal-3" name="animal-3" type="text" placeholder="One more animal" class="bg"
+                required><br>
+
+
+            <label for="adj-1" class="lab">Adjective(past tense):</label><br><br>
+            <input class="inp" id="adj-1" name="adj-1" type="text" placeholder="Adjective in past Tense" class="bg"
+                required><br>
+
+
+            <label for="verb-1" class="lab">Verb (ends in -ing):</label><br><br>
+            <input class="inp" id="verb-1" name="verb-1" type="text" placeholder="ing form of verb" class="bg"
+                required><br><br>
+
+            <label for="num-1" class="lab">Number:</label><br><br>
+            <input class="inp" id="num-1" name="num-1" type="number" placeholder="Put any desired number" class="bg"
+                required><br><br>
+            <span class="lab">Yes or No:</span><br><br>
+            <input id="yes" type="radio" name="answer" value="yes" required>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="answer" value="no" required>
+            <label for="no">No</label><br><br>
+            <label class="lab">Relative Speed(ends in -er):</label><br><br>
+            <select class="inp" id="speed" name="speed" required>
+                <option value="faster">Faster</option>
+                <option value="quicker">Quicker</option>
+            </select><br><br>
+            <label for="quote" class="lab">Motivational Quote:</label><br><br>
+            <input class="inp" type="text" id="quote" name="quote" class="bg" required>
+            <br><br>
+            <label for="message" class="lab">Meaningful message</label><br><br>
+            <textarea class="inp" id="message" name="message" rows="8" cols="40"
+                placeholder="This is meaningful"></textarea>
+            <br><br>
+        </form>
+    </section>
+    <div style="text-align:center;">
+        <input id="botm" type="submit" value="FORM MY STORY !">
+    </div>
+
+    <h4 id="bottom2">" &copy; All rights reserved with" <span style="color:black;font-size:20px;">DESIGN PVT.
+            LTD.</span></h4>
+
+</body>
+
+</html>

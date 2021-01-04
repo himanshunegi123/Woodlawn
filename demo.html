@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+    <title>Merry Christmas !</title>
+    <style>
+        .content {
+            position: absolute;
+            background: transparent;
+            background-blend-mode: lighten;
+            bottom: 0;
+            width: 1000px;
+            padding: 20px;
+            color: whitesmoke;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 180px;
+            margin-bottom: 200px
+        }
+
+        #body {
+            margin: 0px;
+            display: inherit;
+        }
+
+        .myBtn {
+            text-align: center;
+            width: 200px;
+            height: 70px;
+            padding: 5px 10px;
+            background-color: white;
+            border: solid gray 2px;
+            box-shadow: 2px 5px black;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 2px;
+            cursor: pointer;
+            font-size: 20px
+        }
+
+        .myBtn:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        .nav {
+            overflow: hidden;
+            background: transparent;
+            width: 100%;
+            position: sticky;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .nav a {
+            float: left;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .bg-image {
+            background-image: url("bggg.jpg");
+            min-height: 800px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+
+        }
+
+        .column {
+            float: left;
+            width: 33%;
+            height: 300px;
+            border: solid red 2px;
+        }
+
+        .one {
+            text-align: center;
+            box-shadow: gray 5px 5px;
+            margin: 0px;
+            background-color: rgb(250, 18, 1);
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color: white;
+        }
+
+        .ImgHead {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(white, gray);
+            color: rgb(0, 0, 0);
+            border: dotted rgb(0, 0, 0) 2px;
+            width: 70%;
+            margin-left: 250px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            box-shadow: 4px 7px gray;
+
+
+        }
+
+        .ImgHead2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(white, rgb(64, 67, 241));
+            color: black;
+            border: dotted black 2px;
+            width: 70%;
+            margin-left: 250px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            box-shadow: 4px 5px gray;
+        }
+
+        .row {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .Gallery {
+            height: 500px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 1480px;
+
+        }
+
+        .Gallery1 {
+            display: block;
+            width: 470px;
+            height: 480px;
+            float: left;
+            margin: 10px;
+            text-align: center;
+            color: gray;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: black;
+
+        }
+
+        .slideshowH {
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+
+        }
+        .slideshow {
+            height:50%;
+        }
+
+    </style>
+</head>
+
+<body id="body">
+    <div class="bg-image">
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#about">Link1</a>
+            <a href="#about">Link2</a>
+            <a href="#about">Link3</a>
+            <a href="#about">Link4</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Images Bazar !</h1>
+        <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds of thousands of their
+            own photos to fuel creativity around the world. ...
+            Either way, you've got access to over a million photos under the Unsplash license—which makes them free to
+            do-whatever-you-want with..</p>
+        <button class="myBtn">My Account !</button>
+    </div>
+
+    <div class="ImgHead">
+        <h1>Your amazing Wishlist ! !</h1>
+        <h4> You can choose from a large variety.</h4>
+    </div>
+
+    <div class="Gallery">
+        <div class="Gallery1">
+            <a href="#body"><img src="1.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Dark Desktop Images !</h2>
+            <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+        <div class="Gallery1">
+            <a href="#body"><img src="2.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Close Computer Images !</h2>
+            <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+        <div class="Gallery1">
+            <a href="#body"><img src="3.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Nature Peace for PC !</h2>
+            <p></p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+    </div>
+
+    <div class="ImgHead2">
+        <h1>Cyber hub !</h1>
+        <h4> You can also choose from a large variety !</h4>
+    </div>
+
+    <div class="Gallery">
+        <div class="Gallery1">
+            <a href="#body"> <img src="44.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Coding Backgrounds !</h2>
+            <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+        <div class="Gallery1">
+            <a href="#body"><img src="5.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Blockchain desktop code !</h2>
+            <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+        <div class="Gallery1">
+            <a href="#body"><img src="6.jpg" alt="image1" height="360px" width="100%"></a>
+            <h2>Virtual Reality Backgrounds !</h2>
+            <p>Images Bazaar is a platform powered by an amazing community that has gifted hundreds.
+            </p>
+        </div>
+        <div class="slideshowH">
+            <h1> Slide-show Glimpse of Nature</h1>
+        </div>
+        <div class="slideshow">
+            <img src="1.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="2.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="3.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="2.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="1.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="3.jpg" style="width:100%;">
+        </div>
+        <div class="slideshow">
+            <img src="2.jpg" style="width:100%;">
+        </div>
+
+</body>
+
+</html>
