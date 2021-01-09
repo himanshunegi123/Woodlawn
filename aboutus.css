@@ -1,0 +1,797 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topa1{
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    transition: 0.5s;
+    
+    }
+
+    ul {
+    width:60%;
+    margin-left:18%;
+    margin-top:5vh;
+    height:5vh;
+    float:right;
+    list-style-type: none;
+
+    }
+
+    li {
+    display: inline;
+    }
+    li a {
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    padding:2%;
+    color: gray;
+    font-weight: bold;
+    font-size:20px;
+    }
+    
+    li a:hover {
+    opacity: 0.3;
+    transition: 1s;
+    
+    }
+    #wooda1{
+    width: 20%;
+    height: 20vh;
+    margin-left:30%;
+    margin-top:3vh;
+    transition: 0.5s;
+    margin-bottom:3vh;
+    }
+
+.mainn {
+    background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/about.jpg");
+    width:100%;
+    border-bottom-right-radius: 100em 20em;
+    height:100vh;
+    background-color: rgb(65, 62, 63);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.exmain {
+    background-color: #5E9D4D;
+
+}
+.text2 {
+    color: white;
+    font-size:90px;
+    font-family: 'Della Respira', serif;
+    width:70%;
+    padding:15vh;
+}
+.main3 {
+    border:1px solid #5E9D4D;
+    border-bottom: none;
+    border-right:none;
+    width:100%;
+    height:30vh;
+    font-size: 30px;
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    background-image: linear-gradient(180deg,#5E9D4D 0%,#ffffff 100%)!important;
+   
+}
+.main3 p {
+    padding-top:5vh;
+    color:#333333;
+    font-size:23px;
+}
+.main4 {
+    width:100%;
+    height: 60vh;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+   
+    
+    
+}
+.main4 p {
+    font-size:50px;
+    color:#333333;
+    letter-spacing: 1%;
+}
+.main44 {
+    width: 100%;
+    display:flex;
+    text-align: center;
+}
+.main44 p{
+    font-size:25px;
+}
+.main441 {
+    width: 33.33%;
+    height:30vh;
+   
+    
+}
+.main441 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main442 {
+    width: 33.33%;
+    height:30vh;
+   
+   
+    
+}
+.main442 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main443 {
+    width: 33.33%;
+    height:30vh;
+    
+    
+    
+}
+.main443 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main5 {
+    width:100%;
+    height:60vh;
+    
+}
+.main51 {
+    height:55vh;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.main511 {
+   
+    width:30%;
+    height:55vh;
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    background-color: #F6F6F6;
+    padding:5%;
+    
+}
+
+.main511 p {
+    letter-spacing: 1%;
+}
+.main512 {
+    height:55vh;
+    width:30%;
+
+}
+#img5 {
+    height:55vh;
+    width:100%;
+}
+.main6 {
+    width:100%;
+    height:30vh;
+    margin-top:2%;
+    background-color: #4E943C;
+    font-family: 'Della Respira', serif;
+    text-align:center;
+    padding-top:3%;
+}
+.main6 p {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#contact {
+    width:18%;
+    height:7vh;
+    color:white;
+    border:3px solid white;
+    font-size:20px;
+    letter-spacing: 1px;
+    padding:10px 12px;
+    background-color: transparent;
+}
+#contact:hover{
+    background-color: #71AA63;
+    width:18%;
+    cursor:pointer;
+}
+
+.main7 {
+    width:100%;
+    height:50vh;
+    background-color:#222222;
+    padding-top:2%;
+    display:flex;
+}
+.main71{
+   padding-left: 5%;
+    width:33.33%;
+    
+
+}
+.main72{
+    width:33.33%;
+    padding-left: 5%;
+    
+}
+.main73{
+    
+    width:33.33%;
+    padding-right: 5%;
+
+}
+.main73 a {
+    text-decoration: none;
+    color: white;
+
+}
+.main7 p {
+    color:white;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    padding-left:50px;
+    
+}
+#main711 {
+    font-size:30px;
+    color:#4E943C;
+    font-family: 'Della Respira', serif;
+}
+.bottom {
+    height:50px;
+    width:100%;
+    padding-top:10px;
+    background-color: #171717;
+
+}
+.bottom p {
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    padding-left:20px;
+    
+
+}
+
+ @media only screen and (max-width:600px) {
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #topa1{
+        background-color: white;
+        display: flex;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        transition: 0.5s;
+      
+        }
+    
+        ul {
+        list-style-type: none;
+        overflow: hidden;
+        padding-top:30px;
+        padding-left:150px;
+        }
+    
+        li {
+        display: inline;
+        }
+        li a {
+        font-family:'Roboto', sans-serif;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: gray;
+        }
+        
+        li a:hover {
+        opacity: 0.3;
+        transition: 1s;
+        
+        }
+        #wooda1{
+        width: 250px;
+        height: 0px;
+        margin-bottom:20px;
+        margin-top:20px;
+        
+        transition: 0.5s;
+        }
+    
+    .mainn {
+        background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/about.jpg");
+        width:100%;
+        border-bottom-right-radius: 100em 20em;
+        height:100vh;
+        background-color: rgb(65, 62, 63);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .exmain {
+        background-color: #5E9D4D;
+    
+    }
+    .text2 {
+        color: white;
+        font-size:100px;
+        font-family: 'Della Respira', serif;
+        width:70%;
+        padding:200px;
+    }
+    .main3 {
+        border:1px solid #5E9D4D;
+        border-bottom: none;
+        border-right:none;
+        width:100%;
+        height:200px;
+        font-size: 30px;
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        background-image: linear-gradient(180deg,#5E9D4D 0%,#ffffff 100%)!important;
+       
+    }
+    .main3 p {
+        padding-top:10px;
+        color:#333333;
+        font-size:23px;
+    }
+    .main4 {
+        width:100%;
+        height: 400px;
+        text-align: center;
+        font-family: 'Della Respira', serif;
+        
+        
+    }
+    .main4 p {
+        font-size:50px;
+        color:#333333;
+        letter-spacing: 2px;
+    }
+    .main44 {
+        width: 100%;
+        display:flex;
+        text-align: center;
+        padding-left:20%;
+    }
+    .main44 p{
+        font-size:25px;
+    }
+    .main441 {
+        width: 25%;
+        height:100px;
+        
+        
+    }
+    .main441 i {
+        color:#0C71C3;
+        font-size:50px;
+    }
+    .main442 {
+        width: 25%;
+        height:100px;
+       
+        
+    }
+    .main442 i {
+        color:#0C71C3;
+        font-size:50px;
+    }
+    .main443 {
+        width: 25%;
+        height:100px;
+        
+        
+    }
+    .main443 i {
+        color:#0C71C3;
+        font-size:50px;
+    }
+    .main5 {
+        width:100%;
+        height:500px;
+        
+    }
+    .main51 {
+        height:600px;
+        justify-content: center;
+        padding-left:20%;
+    }
+    .main511 {
+        float: left;
+        height:400px;
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        background-color: #F6F6F6;
+        
+    }
+    .main511 h1{
+        font-size:40px;
+        
+    }
+    .main511 p {
+        font-size:20px;
+        padding:10px;
+    }
+    .main512 {
+        float:left;
+    
+    }
+    #img5 {
+        height:400px;
+        width:430px;
+    }
+    .main6 {
+        width:100%;
+        height:230px;
+        background-color: #4E943C;
+        font-family: 'Della Respira', serif;
+        text-align:center;
+        padding-top: 20px;
+    }
+    .main6 p {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    #contact {
+        width:150px;
+        height:50px;
+        color:white;
+        border:3px solid white;
+        font-size:20px;
+        letter-spacing: 1px;
+        padding:10px 12px;
+        background-color: transparent;
+    }
+    #contact:hover{
+        background-color: #71AA63;
+        width:180px;
+        cursor:pointer;
+    }
+    
+    .main7 {
+        width:100%;
+        height:700px;
+            
+    }
+    .main71{
+        width:100%;
+        height:200px;
+        
+    
+    }
+    .main72{
+        width:20%;
+        float:left;
+        
+    }
+    .main73{
+        float:left;
+        width:30%;
+        text-align: left;
+    
+    }
+    .main73 a {
+        text-decoration: none;
+        color: white;
+    
+    }
+    .main7 p {
+        color:white;
+        font-size:15px;
+        font-family:'Roboto', sans-serif;
+        padding-left:50px;
+        
+    }
+    #main711 {
+        font-size:30px;
+        color:#4E943C;
+        font-family: 'Della Respira', serif;
+    }
+    .bottom {
+        height:50px;
+        width:100%;
+        padding-top:10px;
+        background-color: #171717;
+    
+    }
+    .bottom p {
+        color:white;
+        font-family:'Roboto', sans-serif;
+        font-size:15px;
+        padding-left:20px;
+    }
+    }
+@media only screen and (max-width:600px){
+
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #topa1{
+        background-color: white;
+        display: flex;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 20vh;
+        transition: 0.5s;
+        overflow-x: hidden;
+        
+    }
+    ul {
+        width:60%;
+        margin-top:3vh;
+        height:5vh;
+        float:right;
+        list-style-type: none;
+    
+    }
+    #wooda1{
+        width: 20%;
+        height: 20vh;
+        margin-top:3vh;
+        transition: 0.5s;
+        margin-bottom:2vh;
+        margin-left:5%;
+    }
+
+    li {
+        display: inline;
+        }
+        li a {
+        font-family:'Roboto', sans-serif;
+        text-decoration: none;
+        color: gray;
+        font-weight: bold;
+        font-size:10px;
+        }
+        .mainn {
+            background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/about.jpg");
+            width:100%;
+            border-bottom-right-radius: 100em 20em;
+            height:100vh;
+            background-color: rgb(65, 62, 63);
+            background-blend-mode: overlay;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+     .exmain {
+    background-color: #5E9D4D;
+
+}
+.text2 {
+    color: white;
+    font-size:60px;
+    font-family: 'Della Respira', serif;
+    width:85%;
+    padding:20vh;
+}
+.main3 {
+    border:1px solid #5E9D4D;
+    border-bottom: none;
+    border-right:none;
+    width:100%;
+    height:30vh;
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    background-image: linear-gradient(180deg,#5E9D4D 0%,#ffffff 100%)!important;
+   
+}
+.main3 p {
+    padding-top:5vh;
+    color:#333333;
+    font-size:20px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.main4 {
+    width:100%;
+    height: 120vh;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+   
+    
+    
+}
+.main4 p {
+    font-size:50px;
+    color:#333333;
+    letter-spacing: 1%;
+    
+}
+.main44 {
+    width: 100%;
+    display:block;
+    text-align: center;
+    align-items: center;
+}
+.main44 p{
+    font-size:25px;
+}
+.main441 {
+    width: 100%;
+    height:30vh;
+    padding-right:15%;
+    
+    
+}
+.main441 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main442 {
+    width: 100%;
+    height:30vh;
+    padding-right:15%;
+   
+    
+}
+.main442 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main443 {
+    width: 100%;
+    height:30vh;
+    padding-right:15%;
+    
+}
+.main443 i {
+    color:#0C71C3;
+    font-size:50px;
+}
+.main5 {
+    width:100%;
+    height:110vh;
+    
+}
+.main51 {
+    height:20vh;
+    display:block;
+    justify-content: center;
+    width:100%;
+    padding-right:8%;
+}
+.main511 {
+   
+    width:100%;
+    height:60vh;
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    background-color: #F6F6F6;
+    padding:5%;
+    
+}
+
+.main511 p {
+    letter-spacing:1%;
+    font-size:18px;
+}
+.main512 {
+    width:100%;
+    height:50vh;
+
+}
+#img5 {
+    width:100%;
+    height:50vh;
+}
+.main6 {
+    width:100%;
+    height:35vh;
+    margin-top:2%;
+    background-color: #4E943C;
+    font-family: 'Della Respira', serif;
+    text-align:center;
+    padding-top:3%;
+}
+.main6 p {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#contact {
+    width:28%;
+    height:8vh;
+    color:white;
+    border:3px solid white;
+    font-size:15px;
+    padding:10px 12px;
+    background-color: transparent;
+}
+#contact:hover{
+    background-color: #71AA63;
+    width:18%;
+    cursor:pointer;
+}
+
+.main7 {
+    width:100%;
+    height:90vh;
+    background-color:#222222;
+    padding-top:2%;
+    display:block;
+}
+.main71{
+   padding-left: 4%;
+    width:90%;
+    height:20vh;
+    margin-bottom:10%;
+  
+    
+
+}
+.main72{
+    width:90%;
+    padding-left: 4%;
+    height:20vh;
+  
+    
+}
+.main73{
+    width:90%;
+    padding-left: 4%;
+    height:20vh;
+    
+}
+.main73 a {
+    text-decoration: none;
+    color: white;
+
+}
+.main7 p {
+    color:white;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    padding-left:50px;
+    
+}
+#main711 {
+    font-size:20px;
+    color:#4E943C;
+    font-family: 'Della Respira', serif;
+}
+.bottom {
+    height:10vh;
+    width:100%;
+    padding-top:10px;
+    background-color: #171717;
+    text-align:center;
+
+}
+.bottom p {
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:10px;    
+
+}
+
+}

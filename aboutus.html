@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <title>About|Woodlawn Services</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://woodlawnservices.com/wp-content/uploads/2018/03/cropped-Woodlawn-32x32.png"
+        sizes="32x32">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+
+</head>
+
+<body style="margin:0px;overflow-x: hidden;">
+    <div id="topa1">
+        <a href="woodland.html"> <img id="wooda1"
+                src="https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-logo.jpg" alt="Wood Lawn Icon"></a>
+            <ul>
+                <li><a href="woodland.html">Home</a></li>
+                <li><a href="aboutus.html" style="color: #2ea3f2;">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+    </div>
+    <div class="exmain">
+        <div class="mainn">
+            <div class="text2">
+                <p>About Us</p>
+            </div>
+        </div>
+    </div>
+    <div class="main3">
+        <p>Woodlawn is a local lawn & landscape company. We are based out of Yukon, Oklahoma and we service the
+            immediate and<br>
+            surrounding areas.</p>
+    </div>
+    <div class="main4">
+        <p>Core Values</p>
+        <div class="main44">
+            <div class="main441">
+                <i class="far fa-check-circle"></i>
+                <p>Safety First</p>
+
+            </div>
+            <div class="main442">
+                <i class="far fa-check-circle"></i>
+                <p>Respecting customers by being on time and dependable.</p>
+
+            </div>
+            <div class="main443">
+                <i class="far fa-check-circle"></i>
+                <p>Do it right the first time.</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="main5">
+        <div class="main51">
+            <div class="main511">
+                <h1>Our Mission</h1>
+                <p>To provide an exceptional service to our<br> customers through the lens of our core values.<br>
+                    Futhermore, Woodlawn Services LLC. operates<br> with a desire to give customers relief from the <br>
+                    many tasks that it takes to run a home.</p>
+            </div>
+            <div class="main512">
+                <img id="img5" src="https://woodlawnservices.com/wp-content/uploads/2018/04/Mulching-service.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="main6">
+        <p>Request an estimate today.</p>
+        <button id="contact" type="contact" value="explore">Contact Us</button>
+    </div>
+    <div class="main7">
+        <div class="main71">
+            <p id="main711">About Woodlawn Services, LLC</p>
+            <p>We are local lawn and landscape company 
+                based out of Yukon, Oklahoma. We would love
+                the opportunity to serve you. Call today to
+                schedule your appointment 405-886-5296.</p>
+        </div>
+        <div class="main72">
+            <p id="main711">Quick Links</p>
+            <p>About <br>
+                Services<br>
+                Contact</p>
+        </div>
+        <div class="main73">
+            <p id="main711">Contact Info</p>
+            <p><b>Phone</b><a href=""> 405-886-LAWN(5296)</a><br>
+                <b>Email</b><a href=""> brady@woodlawnservices.com</a><br>
+                <i class="fab fa-facebook" style="color:#4E943C; font-size:30px;margin-top:20px;"></i>
+                <i class="fab fa-instagram" style="color:#4E943C; font-size:30px;margin-top:20px;margin-left:50px;"></i>
+            </p>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Copyright © 2018 | Wood Lawn Services | All Rights Reserved</p>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mytopnav");
+            if (x.className === "top1") {
+                x.className += " responsive";
+            } else {
+                x.className = "top1";
+            }
+        }
+    </script>
+    <script>
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("topa1").style.fontSize = "15px";
+                document.getElementById("topa1").style.height = "90px";
+                document.getElementById("wooda1").style.width = "180px";
+                document.getElementById("wooda1").style.height = "60px";
+            } else {
+                document.getElementById("topa1").style.fontSize = "20px";
+                document.getElementById("topa1").style.height = "150px";
+                document.getElementById("wooda1").style.width = "250px";
+                document.getElementById("wooda1").style.height = "90px";
+            }
+        }
+    </script>
+</body>
+
+</html>

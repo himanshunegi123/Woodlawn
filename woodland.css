@@ -1,0 +1,565 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headm {
+    width:100%;
+    background:rgba(0, 0, 0,0.5);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+    padding-top:2vh;
+    padding-bottom: 2vh;
+    
+}
+.icon {
+    display: none;
+}
+.headm a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    padding:3vh;
+}
+.headm a:hover{
+    color:#484849;
+    transition: 0.9s;
+}
+
+.img1 {
+    width:35%;
+    height:40%;
+    margin-left:10%;
+    margin-top:8%;
+    
+}
+
+.main1 {
+    background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-serveces-hero-banner.jpg");
+    background-color: rgb(33, 31, 32);
+    background-blend-mode: overlay;
+    min-height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:-100px;
+  
+}
+.extra2 {
+    width:100%;
+    height:90px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNTEpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4");
+    position: relative;
+    padding:50px 0px;
+    background-position: center center;
+    background-size: cover;
+
+}
+.text1 {
+    font-family: 'Della Respira', serif;
+    color:white;
+    font-size:20px;    
+    float:right;
+    width:40%;
+    text-align: left;
+    margin-top:10%;
+    margin-right:5%;
+
+}
+.main2 p{
+    font-family: 'Della Respira', serif;
+    width:100%;
+    text-align:center;
+    font-size:50px;
+    color:#333333;
+
+}
+.main2 {
+    width:100%;
+    height:500px;
+    align-items: center;
+    text-align: center;
+    
+}
+.main21 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+
+    
+}
+.main22 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+    
+}
+.main23 {
+    width:30%;
+    float:left;
+    padding-left:3%;
+    
+}
+
+
+#but1 {
+    background-color:#4E943C;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+    margin-top:4%;
+
+}
+.extmain2 {
+    width:100%;
+    height:300px;
+    padding-left:5%;
+}
+
+#but1:hover{
+    padding-right:30px;
+    padding-left:30px;
+    cursor:pointer;
+    transition: 0.8s;
+
+}
+.extra1 {
+    width: 100%;
+    height:90px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoNzgsMTQ4LDYwLDAuNTEpIj48cGF0aCBkPSJNNjQwIDEzOUwwIDB2MTQwaDEyODBWMEw2NDAgMTM5eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik02NDAgMTM5TDAgNDJ2OThoMTI4MFY0MmwtNjQwIDk3eiIvPjwvZz48L3N2Zz4");
+
+}
+.main3 {
+    text-align: center;
+}
+.main3 p {
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+
+}
+#main3p {
+    font-family: 'Della Respira', serif;
+    font-size:50px;
+    color:#333333;
+
+}
+.main4 {
+    width:100%;
+    text-align: center;
+    color:#0C71C3;
+    font-family: 'Della Respira', serif;
+    height:40vh;
+    background-color: #F3F3F3;
+    font-size:30px;
+    padding-top:2vh;
+}
+.main5 {
+    width:100%;
+    background-image: url("https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-garden-care.jpg");
+    background-color: rgb(80, 77, 79);
+    background-blend-mode: overlay;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+  
+    
+}
+.form {
+    text-align: center;
+    width:40%;
+    padding-top:90px;
+    margin-left:120px;
+    
+
+}
+.form p {
+    color:white;
+    font-size:35px;
+    font-family: 'Della Respira', serif;
+    
+}
+.input {
+    width:40%;
+    padding:10px;
+    height:42px;
+    margin:1%;
+    border:none;
+    font-size:15px;
+    font-family:'Roboto', sans-serif;
+    background-color: white;
+    color:gray;
+    
+}
+.texta {
+    width:84%;
+    margin:1%;
+    border:none;
+    height:20vh;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    padding:10px;
+    
+}
+.button {
+    font-family:'Roboto', sans-serif;
+    width:90%;
+    height:40px;
+    margin-top:1%;
+    
+}
+.button input {
+    width:10%;
+    height:50px;
+    background-color: white;
+    border:none;
+    
+}
+.button label {
+    color:white;
+    font-size: 20px;
+    
+}
+#subutton {
+    width:100px;
+    float:right;
+    height:50px;
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    
+}
+#subutton:hover{
+    padding-right:50px;
+    padding-left:15px;
+    cursor:pointer;
+}
+.main52{
+    float:right;
+    width:40%;
+    font-family: 'Della Respira', serif;
+    color:white;
+    margin-top:30vh;
+    
+    
+
+}
+.main52 p{
+    font-size:25px;
+    font-weight: bold;
+
+}
+.main52 h4{
+    font-size:18px;
+}
+.main6 {
+    width:100%;
+    height:50vh;
+    background-color:#222222;
+    padding-top:3vh;
+   
+}
+.main61{
+    float:left;
+    width:33.33%;
+    padding-left:4%;
+
+}
+.main62{
+    width:30%;
+    float:left;
+    padding-left:4%;
+    
+   
+    
+    
+}
+.main63{
+    float:left;
+    width:30%;
+    height:2vh;
+    
+    
+
+}
+.main6 p {
+    color:white;
+    font-size:12px;
+    font-family:'Roboto', sans-serif;
+    padding-left:50px;
+    
+}
+.main6 a{
+    text-decoration: none;
+    color: white;
+    }
+#main611 {
+    font-size:24px;
+    color:#4E943C;
+    font-family: 'Della Respira', serif;
+}
+.bottom {
+    height:50px;
+    width:100%;
+    padding:14px;
+    background-color: #171717;
+
+}
+.bottom p {
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    padding-left:100px;
+
+}
+@media only screen and (max-width:600px) {
+    *{
+        margin: o;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin:0;
+    }
+    .headm {
+        width:100%;
+        display: block;
+        
+    }
+    .headm a{
+        padding:10px;
+        padding-top:3vh;
+        padding-bottom:2vh;
+    }
+    .headm a:hover{
+        color:#484849;
+        transition: 0.9s;
+    }
+    .main1 {
+        height:180vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom:-17vh;
+
+    }
+    .img1 {
+        width:55%;
+        height:20%;
+        margin-left:20%;
+        margin-right:10%;
+        
+       
+    }
+    .text1 {
+        font-family: 'Della Respira', serif;
+        color:white;  
+        width:70%;
+        text-align: left;
+        margin-left:15%;
+        margin-right:15%;
+        
+
+    }
+    .text1 p{
+        font-family: 'Della Respira', serif;
+        color:white;
+        font-size:25px;  
+        
+        
+    }
+    .text1 h1 {
+        font-size:35px;
+
+    }
+    .main2 p{
+        font-family: 'Della Respira', serif;
+        text-align:center;
+        font-size:25px;
+        color:#333333;
+    
+    }
+    .main2 {
+        width:100%;
+        height:200vh;
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+    .main21 {
+        width:100%;
+        
+    }
+    .main22 {
+        width:100%;
+    
+    }
+    .main23 {
+        width:100%;
+        
+        
+    }
+    #but1 {
+        background-color:#4E943C;
+        color:white;
+        padding:10px 20px;
+        border:none;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        text-align:center;
+        margin-top:3vh;
+        margin-left:7%;
+    
+    }
+    #but1:hover{
+        padding-right:30px;
+        padding-left:30px;
+        cursor:pointer;
+        transition: 0.8s;
+    
+    }
+    .main3 {
+        text-align: center;
+        padding:3%;
+    }
+    #main3p {
+        font-size:20px;
+    }
+    .main3 p {
+        font-size:15px;
+    
+    }
+    .main4 {
+        width:100%;
+        text-align: center;
+        color:#0C71C3;
+        font-family: 'Della Respira', serif;
+        height:25vh;
+        background-color: #F3F3F3;
+        font-size: 25px;
+        padding:3%;
+    }
+    .main5 {
+        display: block;
+        height:150vh;
+        width:100%;
+    }
+    .form {
+        text-align: center;
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        
+    }
+    #input {
+        width:100%;
+        height:50px;
+        
+    }
+    .texta {
+        width:82%;
+        height:25vh;
+       
+    }
+    .main52 { 
+        text-align: left;
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:10vh;
+        padding-left:5%;
+
+       
+    }
+    .main52 p{
+        font-size:30px;
+        font-weight: bold;
+        
+    
+    }
+    .main52 h4{
+        font-size:18px;
+    }
+    .button {
+        font-family:'Roboto', sans-serif;
+        width:80%;
+        height:10vh;
+        margin-top:3vh;
+        margin-left:10%;
+        margin-right:10%;
+        
+        
+    }
+    .button input {
+        width:10%;
+        height:8vh;
+        background-color: white;
+        border:none;
+        
+    }
+    .button label {
+        color:white;
+        font-size: 20px;
+        
+    }
+    #subutton {
+        width:100px;
+        float:right;
+        height:50px;
+        background-color: transparent;
+        border:2px solid white;
+        color:white;
+        font-weight: bold;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        
+    }
+    #subutton:hover{
+        padding-right:50px;
+        padding-left:15px;
+        cursor:pointer;
+    }
+    .main6 {
+        margin:0px;
+        display:block;
+        width:100%;
+        height:90vh;
+
+
+    }
+    .main61{
+        width:90%;
+        float:left;
+        padding-left:5%;
+       
+    
+    }
+    .main62{
+        width:90%;
+        float:left;
+        padding-left:5%;
+    }
+    .main63{
+        width:90%;
+        float:left;
+        padding-left:5%;
+        
+    }
+    .bottom {
+        text-align:center;
+        font-size:100%;
+        height: 12vh;
+        width:100%;
+        margin-bottom:0px;
+        padding-left:0px;
+    }
+}
